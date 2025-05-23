@@ -1,0 +1,11 @@
+Flask==2.1.2
+Flask-SQLAlchemy==2.5.1
+Flask-SocketIO==5.3.4
+easyocr==1.4
+opencv-python-headless==4.5.3.56
+Pillow==8.3.1
+numpy==1.21.2
+ultralytics==8.0.3
+python-socketio==5.5.0
+eventlet==0.31.0  # Needed for Flask-SocketIO
+torch==1.9.0  # Required by easyocr and YOLO model
